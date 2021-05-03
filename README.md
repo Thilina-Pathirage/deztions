@@ -15,4 +15,4 @@ This project is hosted in netliy.com and the used build command is `CI= npm run 
 
 The site hosted link: https://agitated-noyce-875c3e.netlify.app/
 
-Thank you.
+Copyright (c) 2021 Thilina Pathirage
