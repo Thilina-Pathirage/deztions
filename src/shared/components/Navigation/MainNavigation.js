@@ -36,7 +36,7 @@ const MainNavigation = props => {
                 <i className="fas fa-bars burger-icon"></i>
             </button>
             <Link to="/">
-                <img alt="Destions" className="brandLogo" src="https://communications.dartmouth.edu/sites/communications.dartmouth.edu/files/d-pine_spacing.jpg" />
+                <h3 className="brandLogo">Destions</h3>
             </Link>
             <nav className="main-navigation__header-nav">
                 <NavLinks/>
