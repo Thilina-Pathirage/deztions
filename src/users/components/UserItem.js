@@ -4,8 +4,9 @@ import { MDBCard, MDBCardBody, MDBCardImage, MDBCardHeader,MDBContainer, MDBRow,
 import { Link } from 'react-router-dom';
 const UserItem = props => {
     return( 
-        <Link to={`/${props.id}/places`}>
+        
             <div className="center">
+                <Link to={`/${props.id}/places`}>
                 <MDBCard className="useritem-card hover-shadow" style={{ width: '19rem' }}>
                 <MDBCardHeader className="card-header">
                 <MDBCardImage className="shadow-3-strong card-img" src={props.image} alt='...' position='top' />
@@ -30,8 +31,9 @@ const UserItem = props => {
                     </MDBContainer>
                 </MDBCardBody>
             </MDBCard>
+            </Link>
             </div>
-        </Link>
+        
     );
 }
 

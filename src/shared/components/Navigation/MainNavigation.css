@@ -14,7 +14,7 @@
     display: block;
     width: 3rem;
     height: 2.5px;
-    background: white;
+    background: rgb(31, 31, 31);
   }
   
   .main-navigation__title {
@@ -46,6 +46,7 @@
 
   .brandLogo{
     color: #00a133;
+    font-weight:bolder;
   }
 
   .burger-icon{

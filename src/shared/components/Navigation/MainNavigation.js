@@ -38,7 +38,7 @@ const MainNavigation = props => {
             <Link to="/">
                 <h3 className="brandLogo">Destions</h3>
             </Link>
-            <nav className="main-navigation__header-nav">
+            <nav className="main-navigation__header-nav autohide">
                 <NavLinks/>
             </nav>
         </MainHeader>
