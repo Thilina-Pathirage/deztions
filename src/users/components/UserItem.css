@@ -9,6 +9,7 @@
 .useritem-card{
     margin-top: 40px !important;
     border-radius: 20px;
+    background-color: rgb(31, 31, 31);
     box-shadow: 4px 1px 30px 4px rgba(0, 0, 0, 0.096) !important;
     
 }
@@ -30,7 +31,7 @@
 }
 
 .sq-for{
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(53, 53, 53);
     margin-top: 10px;
     border-radius: 10px;
     padding: 5px;
@@ -39,7 +40,7 @@
 }
 
 .sq-for:hover{
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(32, 32, 32);
 
 }
 
@@ -49,5 +50,5 @@
 }
 
 .sq-for h1{
-    color: rgb(29, 29, 29);
+    color: rgb(216, 216, 216);
 }

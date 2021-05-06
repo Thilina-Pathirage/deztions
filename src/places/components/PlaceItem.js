@@ -11,7 +11,7 @@ const PlaceItem = props => {
                 <MDBCardImage className="place-card-image img-fluid" src={props.image} fluid alt={props.title} />
                 <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
             </MDBRipple>
-            <MDBCardBody>
+            <MDBCardBody className="places-card-body">
                 <MDBCardTitle className="user-place-card-title">{props.title}</MDBCardTitle>
                 <h5>{props.address}</h5>
                 <MDBCardText>

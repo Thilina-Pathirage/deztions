@@ -16,7 +16,7 @@
   
   .nav-links a {
     border: 1px solid transparent;
-    color: #292929;
+    color: #ffffff;
     text-decoration: none;
     padding: 0.5rem;
   }
@@ -33,7 +33,7 @@
   .nav-links button {
     cursor: pointer;
     border: 1px solid #292929;
-    color: #292929;
+    color: #ffffff;
     background: transparent;
     padding: 0.5rem;
     font: inherit;
@@ -60,7 +60,7 @@
     }
   
     .nav-links a {
-      color: black;
+      color: rgb(255, 255, 255);
       text-decoration: none;
     }
   
