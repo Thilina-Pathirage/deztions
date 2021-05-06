@@ -2,7 +2,7 @@ import React from 'react';
 import './UsersList.css';
 import './UserItem.css';
 import UserItem from './UserItem';
-import { MDBContainer, MDBCard } from 'mdb-react-ui-kit';
+import { MDBContainer, MDBCard, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 
 const UsersList = props => {
     if(props.items.length === 0){
@@ -19,17 +19,23 @@ const UsersList = props => {
     }
 
     return (
-        <ul>
-            {props.items.map(user => (
-                <UserItem
-                key={user.id} 
-                id={user.id} 
-                image={user.image} 
-                name={user.name} 
-                placeCount={user.places}
-                />
-            ))}
-        </ul>
+        <MDBContainer>
+            <MDBRow>
+                <MDBCol>
+                <ul>
+                    {props.items.map(user => (
+                        <UserItem
+                        key={user.id} 
+                        id={user.id} 
+                        image={user.image} 
+                        name={user.name} 
+                        placeCount={user.places}
+                        />
+                    ))}
+                </ul>
+                </MDBCol>
+            </MDBRow>
+        </MDBContainer>
     );
 }
 
