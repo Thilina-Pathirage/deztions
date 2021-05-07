@@ -6,6 +6,7 @@ import SideDrawer from './SideDrawer';
 import Backdrop from '../UIElements/Backdrop';
 import './MainNavigation.css';
 import { useState } from 'react';
+import Deztions from '../images/Deztions.png';
 
 const MainNavigation = props => {
 
@@ -33,12 +34,12 @@ const MainNavigation = props => {
                 
         <MainHeader>
             <button className="main-navigation__menu-btn" onClick={openDrawerHandler}>
-                <i className="fas fa-bars burger-icon"></i>
+            <i class="fas fa-grip-vertical burger-icon"/>
             </button>
             <Link to="/">
-                <h3 className="brandLogo">Destions</h3>
+                <img src={Deztions} className="brandLogo" alt="Deztions" />
             </Link>
-            <nav className="main-navigation__header-nav autohide">
+            <nav className="main-navigation__header-nav">
                 <NavLinks/>
             </nav>
         </MainHeader>
