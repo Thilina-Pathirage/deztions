@@ -34,7 +34,7 @@ const MainNavigation = props => {
                 
         <MainHeader>
             <button className="main-navigation__menu-btn" onClick={openDrawerHandler}>
-            <i class="fas fa-grip-vertical burger-icon"/>
+            <i className="fas fa-grip-vertical burger-icon"/>
             </button>
             <Link to="/">
                 <img src={Deztions} className="brandLogo" alt="Deztions" />
