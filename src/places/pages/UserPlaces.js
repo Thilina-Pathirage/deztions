@@ -22,12 +22,25 @@ const DUMMY_PLACES = [
         imageUrl: 'https://www.reddottours.com/uploads/Activities/Sigiriya-Rock-Fortress/Sigiriya-Rock-Fortress-header.jpg',
         title: 'Sigiriya, Dambulla, Sri Lanka',
         description: 'The ruins of a 5th-century city, anchored by a towering rock fortress accessible by steep stairs.',
-        address: '8 Ela Pahalawewa, Dambulla 21100',
+        address: 'Thalkotta Rd, Sigiriya',
         location: {
             lat: '7.9572586',
             lan: '80.7578487'
         },
         creator: 'u2'
+    },
+
+    {
+        id: 'p3',
+        imageUrl: 'https://www.srilankatravelandtourism.com/places-sri-lanka/ella/ella-images/ella-1-sri-lanka.jpg',
+        title: 'Ella, Sri Lanka',
+        description: 'Ella is a small town in the Badulla District of Uva Province, Sri Lanka governed by an Urban Council. It is approximately 200 kilometres east of Colombo and is situated at an elevation of 1,041 metres above sea level. The area has a rich bio-diversity, dense with numerous varieties of flora and fauna. ',
+        address: 'Badulla',
+        location: {
+            lat: '6.8727447',
+            lan: '81.0518996,'
+        },
+        creator: 'u3'
     }
 ];
 
