@@ -1,10 +1,8 @@
 # Getting Started with Deztions
-
 ![Deztions](./src/shared/components/images/Deztions-ai.jpg)
 
 
 ## Deztions Mobile Web View
-
 ![Deztions](./src/shared/components/images/MobileWebView.jpg)
 
 This project is a ReactJs based social media platform that can share the locations someone is visited. Is it ineresting? yeah! exactly you can contribute for this project. (This is a react project and this is the frontend only)
